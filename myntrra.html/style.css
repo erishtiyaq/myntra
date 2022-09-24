@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;margin: 0;
+    padding: 0;
+    background-color: gray;
+    
+  }
+  .left img{
+    /* border: 3px solid red; */
+    width: 32px;
+    height: 23px;
+  }
+  .container{
+    /* border: 3px solid blue; */
+    max-width:80vw;
+    /* background-color:red ; */
+    padding:  0 12vw ;
+  }
+  nav{
+    font-size: 12px;
+    padding-top: 14px;
+  }
+  nav ul li{
+    list-style: none;
+    padding: 0 12px;
+    /* border: 3px solid yellow; */
+  }
+
+header{
+  position:sticky;
+  background-color: white;
+  top: 0;
+  font-size: 12px;
+  height:66px;
+  box-shadow: rgba(0,0, 0, 0) 1.95px 1.95px 1.95px;
+
+}
+.search{
+  width: 34vw;
+  padding: 7px 17px;
+  border: 0.5px solid grey;
+  background-color: #f7f8fd;
+  border-radius: 4px;
+}
+.section1{
+  background-color: #f2f2f2;
+  
+}
+
+.doo{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  transform: translate(7vw);
+  cursor: pointer;
+
+}
+.teen{width: 90vw;
+cursor: pointer;}
+
+
+
+.homeimg{
+  padding: 12px 0;
+}
+.gimages{
+  display: inline;
+  cursor: pointer;
+}
+.gimages img{
+  transform: translate(4vw);
+  
+height: 270.016px;
+ width: 205.67px;
+}
